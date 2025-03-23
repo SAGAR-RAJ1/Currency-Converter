@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
-    background:beige;
-}
 /* Css to remove input spinner */
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -13,3 +10,66 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0; 
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.container{
+    background-color: rgb(228, 238, 248);
+    padding: 2rem;
+    border-radius: 2rem;
+    min-height: 45vh;
+    width: 30%;
+    text-align: center;
+
+}
+form {
+    margin: 2rem 0 1rem 0;
+}
+select ,button , input{
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    border: #536dec 1px solid;
+}
+button{
+    background-color: #536dec;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+form input{
+   border: #536dec 1px solid;
+   font-size: large;
+   height: 2.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.from{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+
+
+}
+.msg{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color:rgb(202, 212, 222);
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    
+}
