@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Css to remove input spinner */
 input[type=number]::-webkit-inner-spin-button, 
@@ -27,6 +28,11 @@ body{
     text-align: center;
 
 }
+p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
 form {
     margin: 2rem 0 1rem 0;
 }
